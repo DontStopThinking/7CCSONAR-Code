@@ -32,7 +32,8 @@ fig.update_traces(
 fig.show()
 
 # %%
-fig.write_image('url_status_dist_pie.svg', scale=2)
+fig.write_image('online_vs_offline_pie.svg')
+fig.write_html('online_vs_offline_pie.html')
 
 # %% [markdown]
 # # Bar Chart
@@ -59,4 +60,5 @@ fig.update_traces(textposition='outside')
 fig.show()
 
 # %%
-fig.write_image('url_status_bar.svg')
+fig.write_image('online_vs_offline_bar.svg')
+fig.write_html('online_vs_offline_bar.html')
